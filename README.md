@@ -1,7 +1,5 @@
 # Credit_Risk_Prediction
 
-## Projeto em Desenvolvimento
-
 ![image](https://user-images.githubusercontent.com/69591172/203203610-148f0702-134f-4ff4-a657-9f28b8d24198.png)
 
 Este projeto consiste na resolução da competição Home Credit Default Risk disponível no Kaggle.
@@ -14,14 +12,14 @@ O Crédito Habitação busca ampliar a inclusão financeira para a população d
 
 Embora o Home Credit esteja atualmente usando vários métodos estatísticos e de aprendizado de máquina para fazer essas previsões, eles estão desafiando os Kagglers a ajudá-los a desbloquear todo o potencial de seus dados. Isso garantirá que os clientes capazes de pagar não sejam rejeitados e que os empréstimos sejam concedidos com um principal, vencimento e calendário de pagamento que capacitará seus clientes a serem bem-sucedidos.
 
-### Metodologia de Projeto: CRISP-DM 
+## Metodologia de Projeto: CRISP-DM 
 ![image](https://user-images.githubusercontent.com/69591172/203208546-41e1b3bf-9883-4e86-b1d0-26aaed2fd3e5.png)
 
-#### Etapas: 
+### Etapas: 
 
-###### 1- Business Understanding
+##### 1- Business Understanding
 
-###### 2- Data Understanding
+##### 2- Data Understanding
 
 Arquivos application_{train|test}.csv consistem nas tabelas principais de treino e teste.
 
@@ -43,10 +41,10 @@ Uma linha equivale a um pagamento de uma prestação OU uma prestação correspo
 
 O arquivo HomeCredit_columns_description.csv consiste nas descrições para as colunas nos vários arquivos de dados.
 
-###### 3- Data Preparation
+##### 3- Data Preparation
 
-###### 4- Modeling
+##### 4- Modeling
 
-###### 5- Evaluation
+##### 5- Evaluation
 
-###### 6- Deployment
+##### 6- Deployment
