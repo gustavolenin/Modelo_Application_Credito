@@ -41,6 +41,8 @@ Uma linha equivale a um pagamento de uma prestação OU uma prestação correspo
 
 O arquivo HomeCredit_columns_description.csv consiste nas descrições para as colunas nos vários arquivos de dados.
 
+![image](https://user-images.githubusercontent.com/69591172/203211719-747b356e-f9cd-4c3f-938b-ef320ba7150c.png)
+
 ##### 3- Data Preparation
 
 ##### 4- Modeling
