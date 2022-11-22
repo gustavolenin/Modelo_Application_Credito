@@ -1,8 +1,8 @@
-# Credit_Risk_Prediction
+# Home Credit Risk Default
 
 ![image](https://user-images.githubusercontent.com/69591172/203203610-148f0702-134f-4ff4-a657-9f28b8d24198.png)
 
-Este projeto consiste na resolução da competição Home Credit Default Risk disponível no Kaggle.
+Este projeto consiste na resolução da competição [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk) disponível no Kaggle.
 
 ### Instruções do Desafio:
 
@@ -19,29 +19,37 @@ Embora o Home Credit esteja atualmente usando vários métodos estatísticos e d
 
 ##### 1- Business Understanding
 
+**Objetivo**: Identificar corretamente a capacidade de pagamento dos clientes.
+
+**Critérios de Sucesso do projeto**: 
+* Maximizar a identificação de clientes bons pagantes e também dos clientes maus pagantes.
+* Maximizar o precision e o recall do modelo de machine learning.
+
 ##### 2- Data Understanding
 
 Arquivos application_{train|test}.csv consistem nas tabelas principais de treino e teste.
 
-Arquivo bureau.csv consiste nos dados referentes a empréstimos anteriores. Todos os créditos anteriores do cliente fornecidos por outras instituições financeiras que foram relatados ao Credit Bureau (para clientes que possuem empréstimo em nossa amostra). Para cada empréstimo em nossa amostra, existem tantas linhas quanto o número de créditos que o cliente tinha no Credit Bureau antes da data do pedido.
+Arquivo bureau.csv consiste nos dados referentes a empréstimos anteriores. Todos os créditos anteriores do cliente fornecidos por outras instituições financeiras que foram relatados ao Credit Bureau (para clientes que possuem empréstimo em nossa amostra). Para cada empréstimo em nossa amostra, existem tantas linhas quanto o número de créditos que o cliente tinha no Credit Bureau antes da data de coleta do dado.
 
 O arquivo bureau_balance.csv consiste nos saldos mensais dos créditos anteriores no Bureau de Crédito.
-Esta tabela tem uma linha para cada mês de histórico de cada crédito anterior relatado ao Credit Bureau - ou seja, a tabela tem (#empréstimos na amostra * # de créditos anteriores relativos * # de meses onde temos algum histórico observável para os créditos anteriores) linhas.
+Esta tabela tem uma linha para cada mês de histórico de cada crédito anterior relatado ao Credit Bureau, ou seja, a tabela tem empréstimos de créditos anteriores relativos a meses onde temos algum histórico observável para os créditos anteriores.
 
-O arquivo POS_CASH_balance.csv consiste instantâneos de saldos mensais de POS anteriores (ponto de venda) e empréstimos em numerário que o requerente tinha com Crédito Habitação. Esta tabela tem uma linha para cada mês de histórico de cada crédito anterior no Crédito à Habitação (crédito ao consumo e empréstimos em numerário) relacionados com empréstimos na nossa amostra – ou seja, a tabela tem (#empréstimos na amostra * # de créditos anteriores relativos * # de meses em que temos algumas linhas históricas observáveis para os créditos anteriores).
+O arquivo POS_CASH_balance.csv consiste em instantâneos de saldos mensais de POS anteriores (ponto de venda) e empréstimos que o requerente tinha com Crédito Habitação. Esta tabela tem uma linha para cada mês de histórico de cada crédito anterior no Crédito à Habitação (crédito ao consumo e empréstimos em dinheiro vivo) relacionados com empréstimos na nossa amostra, ou seja, a tabela tem empréstimos de créditos anteriores relativos a meses em que temos algumas linhas históricas observáveis para os créditos anteriores.
 
-O arquivo credit_card_balance.csv consiste instantâneos mensais do saldo dos cartões de crédito anteriores que o requerente possui com Crédito Habitação.
-Esta tabela tem uma linha para cada mês de histórico de todos os créditos anteriores no Crédito à Habitação (crédito ao consumidor e empréstimos em dinheiro) relacionados com empréstimos na nossa amostra – ou seja, a tabela tem (#empréstimos na amostra * # de cartões de crédito anteriores relativos * # de meses em que temos algum histórico observável para as linhas de cartão de crédito anteriores).
+O arquivo credit_card_balance.csv consiste em instantâneos mensais do saldo dos cartões de crédito anteriores que o requerente possui com Crédito Habitação.
+Esta tabela tem uma linha para cada mês de histórico de todos os créditos anteriores no Crédito à Habitação (crédito ao consumidor e empréstimos em dinheiro) relacionados com empréstimos na nossa amostra, ou seja, a tabela tem empréstimos de cartões de crédito anteriores relativos a meses em que temos algum histórico observável para as linhas de cartão de crédito anteriores.
 
-O arquivo anterior_aplicativo.csv consiste todos os pedidos anteriores de crédito à habitação de clientes que têm crédito na nossa amostra.
+O arquivo anterior_aplicativo.csv consiste em todos os pedidos anteriores de crédito à habitação de clientes que têm crédito na nossa amostra.
 Há uma linha para cada inscrição anterior relacionada a empréstimos em nossa amostra de dados.
 
 O arquivo parcelas_pagamentos.csv consiste histórico de amortização dos créditos anteriormente desembolsados no Crédito Habitação relativos aos empréstimos da nossa amostra. Há a) uma linha para cada pagamento feito mais b) uma linha para cada pagamento perdido.
-Uma linha equivale a um pagamento de uma prestação OU uma prestação correspondente a um pagamento de um crédito de Crédito Habitação anterior relativo a empréstimos na nossa amostra.
+Uma linha equivale a um pagamento de uma prestação ou uma prestação correspondente a um pagamento de um crédito de Crédito Habitação anterior relativo a empréstimos na nossa amostra.
 
 O arquivo HomeCredit_columns_description.csv consiste nas descrições para as colunas nos vários arquivos de dados.
 
 ![image](https://user-images.githubusercontent.com/69591172/203211719-747b356e-f9cd-4c3f-938b-ef320ba7150c.png)
+
+[Clique aqui]() para visualizar o arquivo onde realiza-se o entendimento dos dados.
 
 ##### 3- Data Preparation
 
