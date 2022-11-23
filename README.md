@@ -19,11 +19,13 @@ Embora o Home Credit esteja atualmente usando vários métodos estatísticos e d
 
 ##### 1- Business Understanding
 
+Empresas que trabalham com modelagem de risco de crédito devem possuir modelos com alto desempenho pois é de extrema importância a correta predição dos bons e maus pagantes. Isso pois visando o máximo lucro deve-se diminuir ao máximo a quantidade de inadimplência. Além disso, deve-se buscar uma solução eficiente com o objetivo de tornar a utilização do modelo viável ou seja que não tenha um custo computacional demasiado.
+
 **Objetivo**: Identificar corretamente a capacidade de pagamento dos clientes.
 
 **Critérios de Sucesso do projeto**: 
 * Maximizar a identificação de clientes bons pagantes e também dos clientes maus pagantes.
-* Maximizar o precision e o recall do modelo de machine learning.
+* A ROC AUC foi a métrica escolhida para avaliar o modelo de machine learning.
 
 ##### 2- Data Understanding
 
