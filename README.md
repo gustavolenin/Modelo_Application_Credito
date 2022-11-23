@@ -49,7 +49,7 @@ O arquivo HomeCredit_columns_description.csv consiste nas descrições para as c
 
 ![image](https://user-images.githubusercontent.com/69591172/203211719-747b356e-f9cd-4c3f-938b-ef320ba7150c.png)
 
-[Clique aqui]() para visualizar o arquivo onde realiza-se o entendimento dos dados.
+[Clique aqui](https://github.com/gustavolenin/Home_Credit_Default_Risk/blob/main/notebook/understanding_data.ipynb) para visualizar o arquivo onde realiza-se o entendimento dos dados.
 
 ##### 3- Data Preparation
 
