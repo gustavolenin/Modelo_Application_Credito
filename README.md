@@ -25,7 +25,7 @@ Empresas que trabalham com modelagem de risco de crédito devem possuir modelos 
 
 **Critérios de Sucesso do projeto**: 
 * Maximizar a identificação de clientes bons pagantes e também dos clientes maus pagantes.
-* A ROC AUC foi a métrica escolhida para avaliar o modelo de machine learning.
+* Maximizar a ROC AUC (métrica escolhida para avaliar o modelo de machine learning).
 
 ##### 2- Data Understanding
 
