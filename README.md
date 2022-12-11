@@ -68,3 +68,5 @@ Deve-se destacar que a etapa de imputação de dados ocorreu após o split do co
 ##### 5- Evaluation
 
 ##### 6- Deployment
+
+Para visualizar melhor o notebook [clique aqui](https://nbviewer.org/github/gustavolenin/Home_Credit_Default_Risk/blob/main/notebook/home_credit_default_risk.ipynb)
