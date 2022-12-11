@@ -43,10 +43,10 @@ O arquivo POS_CASH_balance.csv consiste em instantâneos de saldos mensais de PO
 O arquivo credit_card_balance.csv consiste em instantâneos mensais do saldo dos cartões de crédito anteriores que o requerente possui com Crédito Habitação.
 Esta tabela tem uma linha para cada mês de histórico de todos os créditos anteriores no Crédito à Habitação (crédito ao consumidor e empréstimos em dinheiro) relacionados com empréstimos na nossa amostra, ou seja, a tabela tem empréstimos de cartões de crédito anteriores relativos a meses em que temos algum histórico observável para as linhas de cartão de crédito anteriores.
 
-O arquivo anterior_aplicativo.csv consiste em todos os pedidos anteriores de crédito à habitação de clientes que têm crédito na nossa amostra.
+O arquivo previous_application.csv consiste em todos os pedidos anteriores de crédito à habitação de clientes que têm crédito na nossa amostra.
 Há uma linha para cada inscrição anterior relacionada a empréstimos em nossa amostra de dados.
 
-O arquivo parcelas_pagamentos.csv consiste histórico de amortização dos créditos anteriormente desembolsados no Crédito Habitação relativos aos empréstimos da nossa amostra. Há a) uma linha para cada pagamento feito mais b) uma linha para cada pagamento perdido.
+O arquivo installment_payments.csv consiste histórico de amortização dos créditos anteriormente desembolsados no Crédito Habitação relativos aos empréstimos da nossa amostra. Há a) uma linha para cada pagamento feito mais b) uma linha para cada pagamento perdido.
 Uma linha equivale a um pagamento de uma prestação ou uma prestação correspondente a um pagamento de um crédito de Crédito Habitação anterior relativo a empréstimos na nossa amostra.
 
 O arquivo HomeCredit_columns_description.csv consiste nas descrições para as colunas nos vários arquivos de dados.
@@ -56,6 +56,12 @@ O arquivo HomeCredit_columns_description.csv consiste nas descrições para as c
 [Clique aqui](https://github.com/gustavolenin/Home_Credit_Default_Risk/blob/main/notebook/understanding_data.ipynb) para visualizar o arquivo onde realiza-se o entendimento dos dados.
 
 ##### 3- Data Preparation
+
+Nesta etapa, foram realizadas algumas agregações nos DataFrames: bureau, bureau_balance, POS_CASH_balance, credit_card_balance, previous_application e installment_payments, em seguida houve o merge para concatenar os dados em um único DataFrame. 
+
+Além disso, fez-se necessário tratamento de valores ausentes, bem como optou-se pela criação de novas features.
+
+Deve-se destacar que a etapa de imputação de dados ocorreu após o split do conjunto de dados em treino e teste com o objetivo de evitar data leakage.
 
 ##### 4- Modeling
 
