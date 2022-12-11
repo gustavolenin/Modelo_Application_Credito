@@ -57,7 +57,7 @@ O arquivo HomeCredit_columns_description.csv consiste nas descrições para as c
 
 ##### 3- Data Preparation
 
-Nesta etapa, foram realizadas algumas agregações nos DataFrames: bureau, bureau_balance, POS_CASH_balance, credit_card_balance, previous_application e installment_payments, em seguida houve o merge para concatenar os dados em um único DataFrame. 
+Nesta etapa, foram realizadas algumas agregações nos DataFrames: bureau, bureau_balance, POS_CASH_balance, credit_card_balance, previous_application e installments_payments, em seguida houve o merge para concatenar os dados em um único DataFrame. 
 
 Além disso, fez-se necessário tratamento de valores ausentes, bem como optou-se pela criação de novas features.
 
