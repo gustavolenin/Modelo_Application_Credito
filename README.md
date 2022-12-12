@@ -73,7 +73,7 @@ Em seguida, houve um processo de ajuste no threshold visando maximizar o desempe
 
 Embora o Catboost, o LightGBM e o XGBoost tenham desempenhado melhor de acordo com o parâmetro ROC-AUC, o pequeno ganho no parâmetro ROC-AUC não justifica a utilização desse modelo. Isso ocorre devido ao baixo grau de explicabilidade quando comparado à regressão logística, fato que dificulta bastante a aplicação do Catboost para a modelagem de risco de crédito. Dessa forma, a Regressão Logística foi o algoritmo escolhido.
 
-**Desempenho do Modelo após ajuste no threshold**
+**Desempenho do modelo após ajuste no threshold**
 
 
 
