@@ -65,13 +65,17 @@ Deve-se destacar que a etapa de imputação de dados ocorreu após o split do co
 
 Nesta seção, foi realizado um processo de seleção de variáveis utilizando o Random Forest reduzindo em aproximadamente 8% o número de variáveis cujo impacto na variável alvo, segundo o método aplicado, era desprezível. Dessa forma, há redução do custo computacional durante o processo de treinamento do modelo. Além disso, deve-se mencionar também que tendo conhecimento disso se torna possível o monitoramento das variáveis que possuem maior grau de importância, bem como otimizar o processo de extração de dados.
 
-Após a seleção de variáveis, foram testados 5 algoritmos de machine learning (Logistic Regression, Random Forest, XGBoost, LightGBM e Catboost) com o objetivo de verificar qual possuia o melhor desempenho de acordo com a métrica técnica escolhida. No processo de escolha, além de considerar os critérios técnicos, foi considerada tambémo grau de explicabilidade do modelo.
+Após a seleção de variáveis, foram testados 5 algoritmos de machine learning (Logistic Regression, Random Forest, XGBoost, LightGBM e Catboost) com o objetivo de verificar qual possuia o melhor desempenho de acordo com a métrica técnica escolhida. No processo de escolha, além de considerar os critérios técnicos, foi considerada também o grau de explicabilidade do modelo.
 
 Em seguida, houve um processo de tunagem visando maximizar o desempenho tendo como parâmetro a métrica técnica escolhida (ROC-AUC).
 
 ##### 5- Evaluation
 
+Embora o Catboost tenha desempenhado melhor de acordo com o parâmetro ROC-AUC, o pequeno ganho no parâmetro ROC-AUC não justifica a utilização desse modelo. Isso ocorre devido ao baixo grau de explicabilidade quando comparado à regressão logística, fato que dificulta bastante a aplicação do Catboost para a modelagem de risco de crédito. Dessa forma, a Regressão Logística foi o algoritmo escolhido.
+
 ##### 6- Deployment
+
+Nesta seção, realizou-se a exportação do modelo via Pickle gerando um arquivo deve ser colocado em produção visando gerar valor ao negócio.
 
 -------------------------------------------------------------------------------------------------
 
