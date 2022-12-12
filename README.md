@@ -1,5 +1,3 @@
-# Projeto em Desenvolvimento
-
 # Home Credit Risk Default
 
 ![image](https://user-images.githubusercontent.com/69591172/203203610-148f0702-134f-4ff4-a657-9f28b8d24198.png)
@@ -64,6 +62,12 @@ Além disso, fez-se necessário tratamento de valores ausentes, bem como optou-s
 Deve-se destacar que a etapa de imputação de dados ocorreu após o split do conjunto de dados em treino e teste com o objetivo de evitar data leakage.
 
 ##### 4- Modeling
+
+Nesta seção, foi realizado um processo de seleção de variáveis utilizando o Random Forest reduzindo em aproximadamente 8% o número de variáveis cujo impacto na variável alvo, segundo o método aplicado, era desprezível. Dessa forma, há redução do custo computacional durante o processo de treinamento do modelo. Além disso, deve-se mencionar também que tendo conhecimento disso se torna possível o monitoramento das variáveis que possuem maior grau de importância, bem como otimizar o processo de extração de dados.
+
+Após a seleção de variáveis, foram testados 5 algoritmos de machine learning (Logistic Regression, Random Forest, XGBoost, LightGBM e Catboost) com o objetivo de verificar qual possuia o melhor desempenho de acordo com a métrica técnica escolhida. No processo de escolha, além de considerar os critérios técnicos, foi considerada tambémo grau de explicabilidade do modelo.
+
+Em seguida, houve um processo de tunagem visando maximizar o desempenho tendo como parâmetro a métrica técnica escolhida (ROC-AUC).
 
 ##### 5- Evaluation
 
