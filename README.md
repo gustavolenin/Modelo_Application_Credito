@@ -51,8 +51,6 @@ O arquivo HomeCredit_columns_description.csv consiste nas descrições para as c
 
 ![image](https://user-images.githubusercontent.com/69591172/203211719-747b356e-f9cd-4c3f-938b-ef320ba7150c.png)
 
-[Clique aqui](https://github.com/gustavolenin/Home_Credit_Default_Risk/blob/main/notebook/understanding_data.ipynb) para visualizar o arquivo onde realiza-se o entendimento dos dados.
-
 ##### 3- Data Preparation
 
 Nesta etapa, foram realizadas algumas agregações nos DataFrames: bureau, bureau_balance, POS_CASH_balance, credit_card_balance, previous_application e installments_payments, em seguida houve o merge para concatenar os dados em um único DataFrame. 
