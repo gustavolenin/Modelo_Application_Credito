@@ -65,13 +65,17 @@ Nesta seção, foi realizado um processo de seleção de variáveis utilizando o
 
 Após a seleção de variáveis, foram testados 5 algoritmos de machine learning (Logistic Regression, Random Forest, XGBoost, LightGBM e Catboost) com o objetivo de verificar qual possuia o melhor desempenho de acordo com a métrica técnica escolhida. No processo de escolha, além de considerar os critérios técnicos, foi considerada também o grau de explicabilidade do modelo.
 
-Em seguida, houve um processo de tunagem visando maximizar o desempenho tendo como parâmetro a métrica técnica escolhida (ROC-AUC).
+Em seguida, houve um processo de ajuste no threshold visando maximizar o desempenho da métrica F1-score(média harmônica entre o Precision e o Recall).
 
 ##### 5- Evaluation
 
 ![dataframe_roc_auc](https://user-images.githubusercontent.com/69591172/206964827-1e78d84d-0d60-4ff7-8a43-e27e4d63579f.png)
 
 Embora o Catboost, o LightGBM e o XGBoost tenham desempenhado melhor de acordo com o parâmetro ROC-AUC, o pequeno ganho no parâmetro ROC-AUC não justifica a utilização desse modelo. Isso ocorre devido ao baixo grau de explicabilidade quando comparado à regressão logística, fato que dificulta bastante a aplicação do Catboost para a modelagem de risco de crédito. Dessa forma, a Regressão Logística foi o algoritmo escolhido.
+
+**Desempenho do Modelo após ajuste no threshold**
+
+
 
 ##### 6- Deployment
 
