@@ -19,8 +19,7 @@ Embora o Home Credit esteja atualmente usando vários métodos estatísticos e d
 
 ##### 1- Business Understanding
 
-A Home Credit é uma instituição financeira fundada em 1997 na República Tcheca, atualmente sediada na Holanda e operando em 9 países.
-Empresas que trabalham com modelagem de risco de crédito devem possuir modelos com alto desempenho pois é de extrema importância a correta predição dos bons e maus pagantes. Isso pois visando o máximo lucro deve-se diminuir ao máximo a quantidade de inadimplência. Além disso, deve-se buscar uma solução eficiente com o objetivo de tornar a utilização do modelo viável ou seja que não tenha um custo computacional demasiado.
+A Home Credit é uma instituição financeira cujo total de recursos em 2019 era 26,59 bilhões EUR, foi fundada em 1997 na República Tcheca, atualmente sediada na Holanda e operando em 9 países. Empresas que trabalham com modelagem de risco de crédito, assim como a Home Credit, devem possuir modelos com alto desempenho pois é de extrema importância a correta predição dos bons e maus pagantes. Isso pois visando o máximo lucro deve-se diminuir ao máximo a quantidade de inadimplência. Além disso, deve-se buscar uma solução eficiente com o objetivo de tornar a utilização do modelo viável ou seja que não tenha um custo computacional demasiado.
 
 **Objetivo**: Identificar corretamente a capacidade de pagamento dos clientes.
 
