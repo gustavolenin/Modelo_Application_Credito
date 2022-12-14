@@ -75,7 +75,11 @@ Embora o Catboost, o LightGBM e o XGBoost tenham desempenhado melhor de acordo c
 
 **Desempenho do modelo após ajuste no threshold**
 
+![image](https://user-images.githubusercontent.com/69591172/207738000-bea472e9-7f86-4c04-8ce2-ef3c017a35a5.png)
 
+**Risco de Crédito por faixa de Score**
+
+![credit_score](https://user-images.githubusercontent.com/69591172/207738204-04ac8750-9d1b-4a09-8a52-33ec7b0c36dc.png)
 
 ##### 6- Deployment
 
