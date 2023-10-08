@@ -77,18 +77,6 @@ Embora o Catboost, o LightGBM e o XGBoost tenham desempenhado melhor de acordo c
 
 ![image](https://user-images.githubusercontent.com/69591172/207738000-bea472e9-7f86-4c04-8ce2-ef3c017a35a5.png)
 
-**Risco de Crédito por faixa de Score**
-
-![credit_score](https://user-images.githubusercontent.com/69591172/207738204-04ac8750-9d1b-4a09-8a52-33ec7b0c36dc.png)
-
-* **Faixa 0** contém aproximadamente 4,64% de Risco de inadimplência;
-* **Faixa 1** contém aproximadamente 18,96% de Risco de inadimplência;
-* **Faixa 2** contém aproximadamente 33,37% de Risco de inadimplência;
-* **Faixa 3** contém aproximadamente 43,25% de Risco de inadimplência;
-* **Faixa 4** contém aproximadamente 51,43% de Risco de inadimplência;
-* **Faixa 5** contém aproximadamente 60,53% de Risco de inadimplência;
-* **Faixa 6** contém aproximadamente 62,50% de Risco de inadimplência.
-
 ##### 6- Deployment
 
 Nesta seção, realizou-se a exportação do modelo via Pickle gerando um arquivo deve ser colocado em produção visando gerar valor ao negócio.
