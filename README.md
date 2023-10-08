@@ -79,7 +79,7 @@ Embora o Catboost, o LightGBM e o XGBoost tenham desempenhado melhor de acordo c
 
 ##### 6- Deployment
 
-Nesta seção, realizou-se a exportação do modelo via Pickle gerando um arquivo deve ser colocado em produção visando gerar valor ao negócio.
+Nesta seção, realizou-se a exportação do modelo via Pickle gerando um arquivo que deve ser colocado em produção visando gerar valor ao negócio.
 
 -------------------------------------------------------------------------------------------------
 
